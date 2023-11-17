@@ -1,0 +1,18 @@
+.dummyContent {
+  color: #8f8d82;
+  margin: 40px;
+  &-title {
+    color: #b0a69d;
+  }
+  .dummyTable {
+    width: 300px;
+
+    th {
+      padding-right: 80px;
+    }
+
+    td {
+      padding-left: 4px;
+    }
+  }
+}

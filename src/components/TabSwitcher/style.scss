@@ -1,0 +1,37 @@
+.tabsSwitcher {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 20px;
+  a {
+    text-decoration: none;
+  }
+}
+.navLink {
+  color: #96cce3;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid transparent; 
+  transition: color 0.3s, border-bottom 0.3s;
+
+
+  &:hover {
+    color: #5dcf87;
+  }
+  &:focus {
+    color: #5dcf87;
+  }
+
+  &-active {
+    color: #5dcf87;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #5dcf87;
+  }
+}
